@@ -1,0 +1,6 @@
+(defun large-sum-square(a b c)
+(cond ((and (= a b) (= b c)) "all are equal")
+((or (and (< a b) (> a c))(and (> a b) (> a c) (> b c))) (+ (* a a) (* b b)))
+((and (> a b) (> a c) (> c b)) (+ (* a a) (* c c)))
+((and (< a b) (< a c)) (+ (* b b) (* c c)))
+((and (> a b) (< a c)) (+ (* a a) (* c c)))))
