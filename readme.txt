@@ -1,1 +1,1 @@
-""" These programs are implementations of the exercises in the book MIT structure and implementation of programming. The programs are written in scheme a dialect of lisp. The same programs are translated to python"""
+""" These programs are implementations of the exercises in the book MIT structure and interpretation of computer programming. The programs are written in scheme a dialect of lisp. The same programs are translated to python"""
